@@ -5,7 +5,7 @@ app = Flask(__name__)
 app.secret_key = "todo_secret_key"
 
 # Storage for tasks
-tasks = {}0
+tasks = {}
 next_id = 1
 
 # HTML/CSS User Interface
